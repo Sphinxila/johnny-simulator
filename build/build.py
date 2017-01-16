@@ -12,6 +12,7 @@ class build:
 	def __init__(self, tmp, out):
 		# Current dir
 		self.currentDir = os.getcwd()
+		self.johnnyDir = os.path.join(self.currentDir, "bin", "johnny")
 		self.confDir = os.path.join(self.currentDir, "conf")
 		self.tmpDir = os.path.join(self.currentDir, tmp)
 		self.outDir = os.path.join(self.currentDir, out)
@@ -94,6 +95,23 @@ class build:
 			),
 			description="Disassembling $in")
 		
+	# Binaries
+	def copyDeps(self):
+		for name in os.listdir(self.johnnyDir):
+			# src dest
+			src = os.path.join(self.johnnyDir, name)
+			dest = os.path.join(self.outDir, name)
+			
+			# Path
+			self.__info("[INFO] Adding deps: {0}".format(name))
+			
+			# Build
+			self.writer.build(
+				dest,
+				"copy",
+				src
+			)
+		
 	# Generate build files
 	def generate(self):
 		# Create rules
@@ -144,8 +162,10 @@ class build:
 				"disassemble",
 				source,
 				[self.instructionPath]
-			)	
+			)
 		
 if __name__ == "__main__":
 	b = build(*sys.argv[1:])
 	b.generate()
+	b.copyDeps()
+		
