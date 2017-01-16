@@ -1,6 +1,7 @@
 {
 	"assemble" : [
-		"test.asm"
+		"test.asm",
+		"chapter_5_1_task_1.asm"
 	],
 	
 	"disassemble" : [
