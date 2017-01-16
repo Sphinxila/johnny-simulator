@@ -1,0 +1,9 @@
+{
+	"assemble" : [
+		"test.asm"
+	],
+	
+	"disassemble" : [
+		"examples/multiplikation.ram"
+	]
+}
