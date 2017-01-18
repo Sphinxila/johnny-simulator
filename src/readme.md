@@ -65,4 +65,17 @@ The ASM command jumps to the given address.
 The TST command adds 2 to the fetch cycle (adds 2 to the ptr stack) if the given pointer is 0.
 If the given pointer is higher than 0 he goes normaly to the next pointer (adds 1 to the ptr stack)
 
-## 7.3 Task 
+## 8.1 Task 1 - 3##
+
+Address mapping for all 3 tasks:
+015 -> 031
+010 -> 032
+011 -> 033
+
+During the runtime we copy the two values that we compare to the address 100 and 101.
+So we can re-execute it without resetting the cpu. 
+
+- [Task 1](chapter_8_1_task_1.asm)
+- [Task 2](chapter_8_1_task_2.asm)
+- [Task 3](chapter_8_1_task_3.asm)
+
