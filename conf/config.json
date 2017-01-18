@@ -2,7 +2,12 @@
 	"assemble" : [
 		"test.asm",
 		"chapter_5_1_task_1.asm",
-		"chapter_5_2_task_3.asm"
+		"chapter_5_2_task_3.asm",
+		"chapter_7_task_1.asm",
+		"chapter_7_task_1_sub.asm",
+		"chapter_7_1_task_1.asm",
+		"chapter_7_1_task_2_dec.asm",
+		"chapter_7_1_task_2_inc.asm"
 	],
 	
 	"disassemble" : [
