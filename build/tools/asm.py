@@ -16,12 +16,12 @@ class assembler:
 	
 	# Translate
 	def __translate(self, filename, line, str):
-		# Data
-		data = str.split(' ')
+		# Data (strip string to avoid wrong list sizes)
+		data = str.strip().split(' ')
 		
 		# Validate line
 		if (len(data) > 3):
-			raise ValueError("Invalid line: {0} in {1}".format(line,filename))
+			raise ValueError("Invalid line: {0} in {1} element size {2}".format(line,filename, len(data)))
 
 		# Retrieve values
 		address = int(data[0])
