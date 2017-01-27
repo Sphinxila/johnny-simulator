@@ -33,7 +33,6 @@ The commands that I would wish to have are:
 ## 7.1 Task 1 ##
 
 - [Test File](chapter_7_1_task_1.asm)
-
 - DEC (Decrease at pointer (address))
 - INC (Increase at pointer (address))
 - NULL (Delete at pointer (address))
@@ -45,7 +44,7 @@ The commands that I would wish to have are:
 - [DEC example](chapter_7_1_task_2_dec.asm)
 - [INC example](chapter_7_1_task_2_inc.asm)
 - [NULL example](chapter_7_1_task_2_null.asm)
-
+- [NULL example with SUB](chapter_7_1_task_2_null_with_sub.asm)
 
 ## 7.2 Task 1 ##
 
