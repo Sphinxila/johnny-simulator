@@ -2,6 +2,7 @@ import os
 import sys
 import time
 import json
+from sys import platform
 
 # Syntax
 from ninja_syntax import Writer
@@ -12,7 +13,14 @@ class build:
 	def __init__(self, tmp, out):
 		# Current dir
 		self.currentDir = os.getcwd()
-		self.johnnyDir = os.path.join(self.currentDir, "bin", "johnny")
+		
+		# Linux compatibility
+		if platform == "linux" or platform == "linux2":
+			self.johnnyDir = os.path.join(self.currentDir, "bin", "linux", "johnny")
+		else:
+			self.johnnyDir = os.path.join(self.currentDir, "bin", "win", "johnny")
+			
+		# Other directories
 		self.confDir = os.path.join(self.currentDir, "conf")
 		self.tmpDir = os.path.join(self.currentDir, tmp)
 		self.outDir = os.path.join(self.currentDir, out)
