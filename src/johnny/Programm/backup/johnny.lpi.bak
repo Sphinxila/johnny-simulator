@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <Title Value="Johnny 1.00"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="16">
+      <Unit0>
+        <Filename Value="johnny.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="johnny"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="37" Y="18"/>
+        <UsageCount Value="188"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="guido_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_gmain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="guido_main"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="44" Y="160"/>
+        <UsageCount Value="188"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="guido_main_del.pas"/>
+        <UnitName Value="guido_main_del"/>
+        <TopLine Value="238"/>
+        <CursorPos X="60" Y="248"/>
+        <UsageCount Value="8"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="guido_ramline.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_ramline"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="guido_ramline"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="47" Y="1"/>
+        <UsageCount Value="155"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <TopLine Value="6774"/>
+        <CursorPos X="32" Y="6799"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\lazarus\lcl\include\customform.inc"/>
+        <TopLine Value="2014"/>
+        <CursorPos X="1" Y="2034"/>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="guido_splash.pas"/>
+        <ComponentName Value="frm_splash"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="guido_splash"/>
+        <TopLine Value="1"/>
+        <CursorPos X="49" Y="23"/>
+        <UsageCount Value="16"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
+        <TopLine Value="143"/>
+        <CursorPos X="1" Y="163"/>
+        <UsageCount Value="9"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="guido_main.lfm"/>
+        <TopLine Value="12"/>
+        <CursorPos X="23" Y="12"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lcl\lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <TopLine Value="61"/>
+        <CursorPos X="28" Y="102"/>
+        <UsageCount Value="12"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="guido_ramline.lfm"/>
+        <TopLine Value="31"/>
+        <CursorPos X="19" Y="67"/>
+        <UsageCount Value="12"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
+        <TopLine Value="142"/>
+        <CursorPos X="1" Y="163"/>
+        <UsageCount Value="7"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <TopLine Value="1962"/>
+        <CursorPos X="1" Y="1983"/>
+        <UsageCount Value="7"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="guido_options.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_options"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="guido_options"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="93" Y="22"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="8803"/>
+        <CursorPos X="1" Y="8822"/>
+        <UsageCount Value="19"/>
+        <Loaded Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\Dokumente und Einstellungen\peter\Lokale Einstellungen\Temp\bonsai\Bonsai\BONCOMP\SCANNER.PAS"/>
+        <UnitName Value="scanner"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="149" Column="24" TopLine="120"/>
+      </Position1>
+      <Position2>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="259" Column="9" TopLine="230"/>
+      </Position2>
+      <Position3>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="708" Column="44" TopLine="679"/>
+      </Position3>
+      <Position4>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="710" Column="26" TopLine="681"/>
+      </Position4>
+      <Position5>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="786" Column="1" TopLine="756"/>
+      </Position5>
+      <Position6>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="778" Column="49" TopLine="755"/>
+      </Position6>
+      <Position7>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="781" Column="17" TopLine="761"/>
+      </Position7>
+      <Position8>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="901" Column="30" TopLine="874"/>
+      </Position8>
+      <Position9>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="879" Column="7" TopLine="877"/>
+      </Position9>
+      <Position10>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="1501" Column="19" TopLine="1483"/>
+      </Position10>
+      <Position11>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="390" Column="13" TopLine="360"/>
+      </Position11>
+      <Position12>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="1495" Column="3" TopLine="1492"/>
+      </Position12>
+      <Position13>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="1500" Column="1" TopLine="1492"/>
+      </Position13>
+      <Position14>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="1501" Column="1" TopLine="1492"/>
+      </Position14>
+      <Position15>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="1500" Column="1" TopLine="1492"/>
+      </Position15>
+      <Position16>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="1501" Column="1" TopLine="1492"/>
+      </Position16>
+      <Position17>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="392" Column="1" TopLine="374"/>
+      </Position17>
+      <Position18>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="1501" Column="19" TopLine="1489"/>
+      </Position18>
+      <Position19>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="10" Column="17" TopLine="1"/>
+      </Position19>
+      <Position20>
+        <Filename Value="johnny.lpr"/>
+        <Caret Line="23" Column="1" TopLine="1"/>
+      </Position20>
+      <Position21>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="15" Column="12" TopLine="1"/>
+      </Position21>
+      <Position22>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="33" Column="37" TopLine="4"/>
+      </Position22>
+      <Position23>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="21" Column="59" TopLine="10"/>
+      </Position23>
+      <Position24>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="111" Column="11" TopLine="82"/>
+      </Position24>
+      <Position25>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="180" Column="21" TopLine="151"/>
+      </Position25>
+      <Position26>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="182" Column="21" TopLine="153"/>
+      </Position26>
+      <Position27>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="13" Column="27" TopLine="1"/>
+      </Position27>
+      <Position28>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="237" Column="122" TopLine="1"/>
+      </Position28>
+      <Position29>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="817" Column="79" TopLine="793"/>
+      </Position29>
+      <Position30>
+        <Filename Value="guido_main.pas"/>
+        <Caret Line="1404" Column="1" TopLine="1362"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Parsing>
+      <SyntaxOptions>
+        <CStyleOperator Value="False"/>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <UseLineInfoUnit Value="False"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Watches Count="4">
+      <Item1>
+        <Expression Value="s"/>
+      </Item1>
+      <Item2>
+        <Expression Value="ram_h[i]"/>
+      </Item2>
+      <Item3>
+        <Expression Value="ram_l[i]"/>
+      </Item3>
+      <Item4>
+        <Expression Value="i"/>
+      </Item4>
+    </Watches>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
