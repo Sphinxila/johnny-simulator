@@ -21,6 +21,7 @@ class build:
 			self.johnnyDir = os.path.join(self.currentDir, "bin", "win", "johnny")
 			
 		# Other directories
+		self.docsDir = os.path.join(self.currentDir, "docs")
 		self.confDir = os.path.join(self.currentDir, "conf")
 		self.tmpDir = os.path.join(self.currentDir, tmp)
 		self.outDir = os.path.join(self.currentDir, out)
@@ -105,10 +106,27 @@ class build:
 		
 	# Binaries
 	def copyDeps(self):
+		# Copy binaries
 		for name in os.listdir(self.johnnyDir):
 			# src dest
 			src = os.path.join(self.johnnyDir, name)
 			dest = os.path.join(self.outDir, name)
+			
+			# Path
+			self.__info("[INFO] Adding deps: {0}".format(name))
+			
+			# Build
+			self.writer.build(
+				dest,
+				"copy",
+				src
+			)
+		
+		# Copy docs
+		for name in os.listdir(self.docsDir):
+			# src dest
+			src = os.path.join(self.docsDir, name)
+			dest = os.path.join(self.outDir, "docs" ,name)
 			
 			# Path
 			self.__info("[INFO] Adding deps: {0}".format(name))
