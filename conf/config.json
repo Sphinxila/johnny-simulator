@@ -9,11 +9,14 @@
 		"chapter_7_1_task_2_dec.asm",
 		"chapter_7_1_task_2_inc.asm",
 		"chapter_7_1_task_2_null.asm",
+		"chapter_7_1_task_2_null_with_sub.asm",
 		"chapter_7_2_task_1.asm",
 		"chapter_7_2_task_2.asm",
 		"chapter_8_1_task_1.asm",
 		"chapter_8_1_task_2.asm",
-		"chapter_8_1_task_3.asm"
+		"chapter_8_1_task_3.asm",
+		"chapter_8_2_task_3.asm",
+		"chapter_8_2_task_4.asm"
 	],
 	
 	"disassemble" : [
