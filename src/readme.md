@@ -78,3 +78,7 @@ So we can re-execute it without resetting the cpu.
 - [Task 2](chapter_8_1_task_2.asm)
 - [Task 3](chapter_8_1_task_3.asm)
 
+## 8.2 Task 3 - 5 ##
+- [Task 3](chapter_8_2_task_3.asm)
+- [Task 4](chapter_8_2_task_4.asm)
+- [Task 5](chapter_8_2_task_5.asm)
