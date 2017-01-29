@@ -137,6 +137,23 @@ class build:
 				"copy",
 				src
 			)
+			
+		# Copy micrococde
+		dir = os.path.join(self.srcDir, 'microcode')
+		for name in os.listdir(dir):
+			# src dest
+			src = os.path.join(dir, name)
+			dest = os.path.join(self.outDir, name)
+			
+			# Path
+			self.__info("[INFO] Adding microcode: {0}".format(name))
+			
+			# Build
+			self.writer.build(
+				dest,
+				"copy",
+				src
+			)
 		
 	# Generate build files
 	def generate(self):

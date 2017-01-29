@@ -82,8 +82,9 @@ class disassembler:
 	# Get asm
 	def getAsm(self, ins):
 		for key, elem in self.instructions.items():
-			if int(elem) == int(ins):
-				return key
+			if elem != "":
+				if int(elem) == int(ins):
+					return key
 		return None
 				
 	# Translate

@@ -17,10 +17,12 @@
 		"chapter_8_1_task_3.asm",
 		"chapter_8_2_task_3.asm",
 		"chapter_8_2_task_4.asm",
-		"chapter_8_2_task_5.asm"
+		"chapter_8_2_task_5.asm",
+		"chapter_8_3_task_3.asm"
 	],
 	
 	"disassemble" : [
-		"examples/multiplikation.ram"
+		"examples/multiplikation.ram",
+		"examples/disassembler_test.ram"
 	]
 }
